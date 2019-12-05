@@ -5,7 +5,7 @@
   "scripts": {
     "start": "node app.js",
     "pug": "pug ./public/views",
-    "build": "npm install"
+    "build": "npm install && npm start"
   },
   "dependencies": {
     "body-parser": "^1.18.3",
