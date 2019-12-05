@@ -4,6 +4,7 @@ require('../css/style.css');
 // console art / info
 
 
+
 var app = angular.module('app', ['ngRoute']);
 
 // Compatibility event handler
@@ -185,6 +186,8 @@ app.controller('view', function ($scope, $location, $timeout, $window) {
             }
         }, 2500)
 
+        localStorage.setItem('color', 'dark');
+
         $scope.isDark = function () {
             return (localStorage.getItem('color') === 'dark')
         };
@@ -200,6 +203,7 @@ app.controller('view', function ($scope, $location, $timeout, $window) {
 
         (function () {
             var isDark = $scope.isDark();
+            console.log(isDark);
             var MESH = {
                 width: 1.2,
                 height: 1.2,
