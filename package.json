@@ -5,7 +5,7 @@
   "scripts": {
     "start": "node app.js",
     "pug": "pug ./public/views",
-    "build": "npm install && npm start"
+    "build": "webpack --config webpack.config.js"
   },
   "dependencies": {
     "body-parser": "^1.18.3",
