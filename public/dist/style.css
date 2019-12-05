@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Khula:600); /* PROJECTS CONSTANTS */
+@import url(https://fonts.googleapis.com/css?family=Khula:600);/* PROJECTS CONSTANTS */
 @font-face {
   font-family: Etna;
   src: url(fonts/Etna.otf);
@@ -521,7 +521,9 @@ textarea {
     0.6s 1s;
   -webkit-transition: -webkit-transform cubic-bezier(0.03, 0.88, 0.33, 0.98)
     0.6s 1s;
+  -webkit-transition: -webkit-transform cubic-bezier(0.03, 0.88, 0.33, 0.98) 0.6s 1s;
   transition: transform cubic-bezier(0.03, 0.88, 0.33, 0.98) 0.6s 1s;
+  transition: transform cubic-bezier(0.03, 0.88, 0.33, 0.98) 0.6s 1s, -webkit-transform cubic-bezier(0.03, 0.88, 0.33, 0.98) 0.6s 1s;
   transition: transform cubic-bezier(0.03, 0.88, 0.33, 0.98) 0.6s 1s,
     -webkit-transform cubic-bezier(0.03, 0.88, 0.33, 0.98) 0.6s 1s;
   transition: transform cubic-bezier(0.03, 0.88, 0.33, 0.98) 0.6s 1s,
@@ -554,6 +556,7 @@ textarea {
   -webkit-transition: -webkit-transform 1s cubic-bezier(0.03, 0.88, 0.33, 0.98);
   transition: -webkit-transform 1s cubic-bezier(0.03, 0.88, 0.33, 0.98);
   transition: transform 1s cubic-bezier(0.03, 0.88, 0.33, 0.98);
+  transition: transform 1s cubic-bezier(0.03, 0.88, 0.33, 0.98), -webkit-transform 1s cubic-bezier(0.03, 0.88, 0.33, 0.98);
   transition: transform 1s cubic-bezier(0.03, 0.88, 0.33, 0.98),
     -webkit-transform 1s cubic-bezier(0.03, 0.88, 0.33, 0.98);
   transition: transform 1s cubic-bezier(0.03, 0.88, 0.33, 0.98),
@@ -610,7 +613,9 @@ textarea {
     cubic-bezier(0.03, 0.88, 0.33, 0.98);
   -webkit-transition: -webkit-transform 0.4s
     cubic-bezier(0.03, 0.88, 0.33, 0.98);
+  -webkit-transition: -webkit-transform 0.4s cubic-bezier(0.03, 0.88, 0.33, 0.98);
   transition: transform 0.4s cubic-bezier(0.03, 0.88, 0.33, 0.98);
+  transition: transform 0.4s cubic-bezier(0.03, 0.88, 0.33, 0.98), -webkit-transform 0.4s cubic-bezier(0.03, 0.88, 0.33, 0.98);
   transition: transform 0.4s cubic-bezier(0.03, 0.88, 0.33, 0.98),
     -webkit-transform 0.4s cubic-bezier(0.03, 0.88, 0.33, 0.98);
   transition: transform 0.4s cubic-bezier(0.03, 0.88, 0.33, 0.98),
@@ -805,7 +810,9 @@ textarea {
     0.1s;
   -webkit-transition: -webkit-transform cubic-bezier(0.03, 0.88, 0.33, 0.98) 1s
     0.1s;
+  -webkit-transition: -webkit-transform cubic-bezier(0.03, 0.88, 0.33, 0.98) 1s 0.1s;
   transition: transform cubic-bezier(0.03, 0.88, 0.33, 0.98) 1s 0.1s;
+  transition: transform cubic-bezier(0.03, 0.88, 0.33, 0.98) 1s 0.1s, -webkit-transform cubic-bezier(0.03, 0.88, 0.33, 0.98) 1s 0.1s;
   transition: transform cubic-bezier(0.03, 0.88, 0.33, 0.98) 1s 0.1s,
     -webkit-transform cubic-bezier(0.03, 0.88, 0.33, 0.98) 1s 0.1s;
   transition: transform cubic-bezier(0.03, 0.88, 0.33, 0.98) 1s 0.1s,
@@ -832,6 +839,7 @@ textarea {
   -webkit-transition: -webkit-transform cubic-bezier(0.03, 0.88, 0.33, 0.98) 1s;
   transition: -webkit-transform cubic-bezier(0.03, 0.88, 0.33, 0.98) 1s;
   transition: transform cubic-bezier(0.03, 0.88, 0.33, 0.98) 1s;
+  transition: transform cubic-bezier(0.03, 0.88, 0.33, 0.98) 1s, -webkit-transform cubic-bezier(0.03, 0.88, 0.33, 0.98) 1s;
   transition: transform cubic-bezier(0.03, 0.88, 0.33, 0.98) 1s,
     -webkit-transform cubic-bezier(0.03, 0.88, 0.33, 0.98) 1s;
   transition: transform cubic-bezier(0.03, 0.88, 0.33, 0.98) 1s,
@@ -883,7 +891,9 @@ textarea {
     0.2s;
   -webkit-transition: -webkit-transform cubic-bezier(0.03, 0.88, 0.33, 0.98) 1s
     0.2s;
+  -webkit-transition: -webkit-transform cubic-bezier(0.03, 0.88, 0.33, 0.98) 1s 0.2s;
   transition: transform cubic-bezier(0.03, 0.88, 0.33, 0.98) 1s 0.2s;
+  transition: transform cubic-bezier(0.03, 0.88, 0.33, 0.98) 1s 0.2s, -webkit-transform cubic-bezier(0.03, 0.88, 0.33, 0.98) 1s 0.2s;
   transition: transform cubic-bezier(0.03, 0.88, 0.33, 0.98) 1s 0.2s,
     -webkit-transform cubic-bezier(0.03, 0.88, 0.33, 0.98) 1s 0.2s;
   transition: transform cubic-bezier(0.03, 0.88, 0.33, 0.98) 1s 0.2s,
@@ -1791,6 +1801,7 @@ textarea {
     -webkit-transition: -webkit-transform 1.4s cubic-bezier(0.15, 0.85, 0, 1) !important;
     transition: -webkit-transform 1.4s cubic-bezier(0.15, 0.85, 0, 1) !important;
     transition: transform 1.4s cubic-bezier(0.15, 0.85, 0, 1) !important;
+    transition: transform 1.4s cubic-bezier(0.15, 0.85, 0, 1), -webkit-transform 1.4s cubic-bezier(0.15, 0.85, 0, 1) !important;
     transition: transform 1.4s cubic-bezier(0.15, 0.85, 0, 1),
       -webkit-transform 1.4s cubic-bezier(0.15, 0.85, 0, 1) !important;
     transition: transform 1.4s cubic-bezier(0.15, 0.85, 0, 1),
@@ -2223,5 +2234,5 @@ textarea {
 }
 
 .microsoftCursor:hover {
-  cursor: url('images/micSmall.small.png'), auto;
+  cursor: url('https://i.ibb.co/cv8zcY8/micLogo.png'), auto;
 }
