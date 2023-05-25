@@ -1,0 +1,33 @@
+.view.skills
+    .header-container.skills
+        .header-title-wrap
+            .cover
+            h1(class='header big first') my
+            h1(class='header big last') strengths
+        .header-info-wrap
+            .header-content-body
+                .line-left
+                p(class='header body skill-one')
+                    | My skill set encompasses various aspects such as
+                    strong  analytical
+                    |  thinking, 
+                    strong  teamwork
+                    | , and
+                    strong  dedication
+                    | . I am committed to continuously expanding my knowledge and
+                    strong  adapting
+                    |  to the ever-changing demands of the software development industry. This dedication ensures my ability to thrive in diverse environments and contribute
+                    strong  effectively
+                    |  to any project.
+            .header-content-body.gap
+                .line-left
+                p(class='header body gap skill-two')
+                    | Lately, I've also been immersed in some newer technologies like
+                    strong  Machnine learning
+                    |  and
+                    Strong  React Native
+                    | . Above all else, I am highly motivated and enthusiastic to work with others as well as efficiently on my own.
+.skill-container
+    #skill-wrap
+        .skill(data-ng-repeat='skill in activeSkills track by $index' ng-cloak).
+            {{skill}}
